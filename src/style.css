@@ -1,0 +1,163 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+caption {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  font-family: font;
+}
+
+@font-face {
+  font-family: font;
+  src: url(/Fonts/RotisSansSerifStd.otf);
+}
+@font-face {
+  font-family: fontBold;
+  src: url(/Fonts/RotisSansSerifStd-Bold.otf);
+}
+@font-face {
+  font-family: fontEbold;
+  src: url(/Fonts/RotisSansSerifStd-ExtraBold.otf);
+}
+@font-face {
+  font-family: fontItalic;
+  src: url(/Fonts/RotisSansSerifStd-Italic.otf);
+}
+@font-face {
+  font-family: fontLight;
+  src: url(/Fonts/RotisSansSerifStd-Light.otf);
+}
+
+@font-face {
+  font-family: fontLiteIt;
+  src: url(/Fonts/RotisSansSerifStd-LightIt.otf);
+}
+.ps-5 {
+  padding-left: 150px !important;
+}
+
+.navbar-text {
+  font-family: fontLight;
+}
+.navbar {
+  padding: 0;
+}
+
+.logo {
+  padding-top: 10px;
+  margin-left: 153px;
+}
+
+.dbg {
+  background-image: url(./Images/Intro/image01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1900px;
+  height: 700px;
+}
+
+.quote {
+  height: 100px;
+  position: relative;
+  top: 74%;
+  right: 23.3%;
+  font-family: fontLight;
+  color: #fffffec2;
+}
+
+.secQuote {
+  height: 100px;
+  width: 700px;
+  position: relative;
+  top: 80%;
+  left: 13%;
+}
+
+.secTwo {
+  font-family: fontEbold;
+  background-color: #1d9798;
+}
+.secThree {
+  font-family: fontEbold;
+}
+
+.img-thumbnail {
+  width: 450px !important;
+  height: 300px !important;
+}
+.container {
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+.secFour {
+  font-family: fontEbold;
+  background-image: url(/Images/BG.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.secSix {
+  font-family: fontEbold;
+  background-image: url(../Images/Bio/Bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
